@@ -53,7 +53,7 @@
     "zod": "^3.21.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "npx http-server ./dist",
     "build": "CI=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -70,7 +70,6 @@
       "not dead",
       "not op_mini all"
     ],
-    "start": "npx http-server ./dist",
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
