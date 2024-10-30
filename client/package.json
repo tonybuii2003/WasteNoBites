@@ -53,7 +53,7 @@
     "zod": "^3.21.4"
   },
   "scripts": {
-    "start": "npx http-server ./dist",
+    "start": "npx http-server ./build",
     "build": "CI=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
